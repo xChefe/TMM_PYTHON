@@ -7,7 +7,7 @@ def matriz_interface(k_i, k_j):
         [(k_i + k_j) / (2 * k_i), (k_i - k_j) / (2 * k_i)],
         [(k_i - k_j) / (2 * k_i), (k_i + k_j) / (2 * k_i)]
     ])
-
+#rodrigo
 # Função para criar a matriz de propagação
 def matriz_propagacao(k, delta_z):
     return np.array([
